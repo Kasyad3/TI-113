@@ -1,5 +1,5 @@
 
-let numeros = listaNumeros()
+let numeros = listaNumeros();
 function listaNumeros() {
 
     let numeros = [];
@@ -22,7 +22,7 @@ function listaNumeros() {
         return numeros;
     }
 
-exibirNumeros(numeros)
+exibirNumeros(numeros);
 function exibirNumeros() {
 let mensagem = ""
     for (i = 0; i < numeros.length; i++) {
@@ -39,5 +39,5 @@ let mensagem = ""
        
 
     }
-    alert(mensagem)
+    alert(mensagem);
 }

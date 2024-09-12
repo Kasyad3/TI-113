@@ -1,4 +1,4 @@
-let notas = listaNotas()
+let notas = listaNotas();
 
 function listaNotas() {
     
@@ -11,7 +11,7 @@ function listaNotas() {
             nota = parseFloat(prompt(`Informe a ${i + 1}° nota: `));
             
             if (isNaN(nota))
-                alert(`Valor inválido, informe um número.`)
+                alert(`Valor inválido, informe um número.`);
             
         } while (isNaN(nota))
             
@@ -23,9 +23,10 @@ function listaNotas() {
     }
     
 
-calMedia(notas)
+calMedia(notas);
 function calMedia () {
-media = (notas[0] + notas[1] + notas[2] + notas[3]) / 4
+media = (notas[0] + notas[1] + notas[2] + notas[3]) / 4;
+
 return media;
 }
 
