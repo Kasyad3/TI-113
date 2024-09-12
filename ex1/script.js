@@ -1,6 +1,7 @@
 
 let numeros = listaNumeros()
 function listaNumeros() {
+
     let numeros = [];
     
     for (i = 0; i < 5; i++) {
@@ -22,7 +23,7 @@ function listaNumeros() {
     }
 
 exibirNumeros(numeros)
-function exibirNumeros(numeros) {
+function exibirNumeros() {
 let mensagem = ""
     for (i = 0; i < numeros.length; i++) {
 
