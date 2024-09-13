@@ -128,5 +128,8 @@ function exibirImpares() {
     let impares = numeros.filter(numero => numero % 2 !== 0);
     alert("Números ímpares: " + impares.join(", "));
 }
-
+/*O método .join() em JavaScript é usado para concatenar todos os elementos de um array em uma única string,
+ separando-os por um delimitador especificado. 
+Se nenhum delimitador for especificado, o padrão é uma vírgula. 
+*/
 menu();
